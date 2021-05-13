@@ -16,5 +16,8 @@
 2. The script checks the slots from 7 days of the current date.
 3. You can either set pincode, or district code to get notify accordingly.
 4. If you want to customize your needs (like choosing only covaxin) you can modify the script accordingly.
+5. District id list: https://github.com/bhattbhavesh91/cowin-vaccination-slot-availability/blob/main/district_mapping.csv
 
-For any queries or feedback, raise an issue here or contact me at Instagram @_tanwar_karan
+For any queries or feedback, raise an issue here or contact me at Instagram @_tanwar_karan 
+
+Be safe and all the best :)
