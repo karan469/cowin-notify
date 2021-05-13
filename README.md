@@ -5,13 +5,13 @@
 2. Store the channel hook uid which is at the end of https://hooks.slack.com/services/ (for example https://hooks.slack.com/services/AAAAA/BBBBB/CCCCC has the uid of channel hook AAAA/BBBB/CCCC)
 3. Run the script locally.
 
-Examples: 
+## Examples: 
 ```python
   python3 test.py --pincode 110011 --minimum_age 18 --channel_hook AAAA/BBBB/CCCC
   python3 test.py --district_id 143 --minimum_age 45 --channel_hook AAAA/BBBB/CCCC
 ```
 
-Notes:
+## Notes:
 1. The script checks the slots every 3 seconds because of the limit of api calls per IP.
 2. The script checks the slots from 7 days of the current date.
 3. You can either set pincode, or district code to get notify accordingly.
